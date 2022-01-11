@@ -1,0 +1,117 @@
+
+p {
+  color:black;
+
+}
+header {
+  position: relative;
+  height: 950px;
+  min-height: 500px;
+  max-width: 100%;
+  background-size: cover;
+  background-image: url("background.jpg");
+  -webkit-background-size: cover;
+  text-align: center;
+  overflow: hidden;
+}
+
+header:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+header .banner {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header .banner-text h1{
+  font: 90px/1.1em 'opensans-bold', sans-serif;
+  color: chartreuse;
+  letter-spacing: -2px;
+  margin: 0 auto 18px auto;
+}
+
+header .banner-text h2{
+  color:silver;
+}
+
+#nav-wrap ul, #nav-wrap li, #nav-wrap a {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+#nav-wrap {
+  font: 112px 'opensans-bold', sans-serif;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 0 auto;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+}
+
+ul#nav {
+  min-height: 48px;
+  width: auto;
+  text-align: center;
+}
+ul#nav li {
+  position: center;
+  list-style: none;
+  height: 48px;
+  display: inline-block;
+  text-align: center;
+}
+a {
+  color:silver;
+  font: 22px/30px 'opensans-bold', sans-serif;
+}
+
+h2{
+  color:silver;
+
+}
+#about .profile-pic {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+#about {
+  background: #1a282e;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+  color: white;
+}
+
+#projects {
+  background: #292e30;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+  color: black;
+}
+#contact {
+  background: #1a282e;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+  color: white;
+}
+#links {
+  background: #292e30;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+}
