@@ -31,7 +31,7 @@ header .banner {
 
 header .banner-text h1{
   font: 90px/1.1em 'opensans-bold', sans-serif;
-  color: chartreuse;
+  color: #fdfdfd;
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
 }
